@@ -15,7 +15,7 @@
  
  I would like to propose allowing us to set primaryAction as an optional value for this use case:
  
- `Menu(titleKey: LocalizedStringKey, content: () ->, View: (() -> Void)?)`
+ `Menu(titleKey: LocalizedStringKey, content: () ->, primaryAction: (() -> Void)?)`
  */
 
 import SwiftUI
